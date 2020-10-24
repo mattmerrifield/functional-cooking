@@ -1,4 +1,5 @@
 /_build
+/node_modules
 /cover
 /deps
 /doc
@@ -7,3 +8,4 @@ erl_crash.dump
 *.ez
 *.beam
 /config/*.secret.exs
+.idea/
