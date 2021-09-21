@@ -1,5 +1,9 @@
-{ pkgs ? import <nixpkgs> {} }:
-with pkgs;
+# simple.nix
+with (import <nixpkgs> {});
 mkShell {
-    buildInputs = [ nodejs yarn];
+  buildInputs = [
+    nodejs
+    git
+  ];
 }
+
